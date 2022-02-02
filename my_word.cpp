@@ -74,6 +74,10 @@ void My_Word::ReadTextFile(QString &txt)
     WriteTextEdit(txt);
 }
 
+//Работал в C#, с регуляркой проблем не было.
+//Тут ерунда какая то. Все редакторы показывают, что я
+//правильно составил регулярное выражени (скрин приложу к заданию)
+//в коде на выходе ерунда полная, что в Qt, что в C++
 QString GetDataWeather(QString &weather)
 {
     std::string test = weather.toStdString();
